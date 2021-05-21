@@ -1,4 +1,4 @@
-FROM python:3.7.3-slim-stretch
+FROM python:3.7-slim-stretch
 
 RUN apt-get -y update && apt-get -y install gcc
 
